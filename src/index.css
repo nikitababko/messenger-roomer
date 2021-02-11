@@ -7,7 +7,7 @@
 
 .wrapper {
   max-width: 40%;
-  margin: 100px auto;
+  margin: 35vh auto 0;
   min-width: 720px;
 }
 
@@ -31,6 +31,26 @@
   margin-top: 10px;
   font-weight: bold;
   cursor: pointer;
+  background-color: #0a58ca;
+}
+
+.join-block button:hover {
+  background-color: #124692;
+}
+
+.join-block button:active {
+  background-color: #124692;
+  border-color: #0a58ca;
+}
+
+.join-block button:focus {
+  background-color: #124692;
+  border-color: #0a58ca;
+}
+
+.join-block button:disabled {
+  background-color: #124692;
+  border-color: #0a58ca;
 }
 
 .chat {
@@ -105,4 +125,5 @@
 .chat-messages form textarea {
   width: 100%;
   margin-bottom: 10px;
+  resize: none;
 }
