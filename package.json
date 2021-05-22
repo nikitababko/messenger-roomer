@@ -1,5 +1,9 @@
 {
   "name": "messenger-roomer",
+  "author": {
+    "name": "Nikita Babko",
+    "email": "niki.babko@gmail.com"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
